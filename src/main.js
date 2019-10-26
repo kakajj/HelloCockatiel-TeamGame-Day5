@@ -8,13 +8,13 @@ const config = {
     pixelArt: true,
     roundPixels: true,
     parent: 'content',
-    width: 330,
-    height: 700,
+    width:250,
+    height: 600,
     physics: {
         default: 'arcade',
         arcade: {
-            debug: false,
-            // gravity: {y:300}
+            debug: true,
+            // gravity: {y:1000}
         }
     },
     scene: [
